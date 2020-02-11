@@ -1,0 +1,37 @@
+.Film {
+  flex-basis: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 10px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.Film:hover h1 {
+  font-size: 17px;
+}
+
+.Film:hover h2 {
+  font-size: 15px;
+}
+
+.Film h1 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  transition: font-size 150ms;
+}
+
+.Film h2 {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  margin-top: 3px;
+  transition: font-size 150ms;
+}
