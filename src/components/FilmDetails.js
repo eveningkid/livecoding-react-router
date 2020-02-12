@@ -1,13 +1,13 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './FilmDetails.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./FilmDetails.css";
 
 class FilmDetails extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       film: {},
-      isLoading: true,
+      isLoading: true
     };
   }
 
@@ -15,8 +15,8 @@ class FilmDetails extends React.Component {
     const filmId = this.props.match.params.filmId;
 
     fetch(`https://ghibliapi.herokuapp.com/films/${filmId}`)
-      .then((response) => response.json())
-      .then((film) => {
+      .then(response => response.json())
+      .then(film => {
         this.setState({ film: film, isLoading: false });
       });
   }
@@ -28,7 +28,7 @@ class FilmDetails extends React.Component {
 
         <div>
           {this.state.isLoading ? (
-            'Loading...'
+            "Loading..."
           ) : (
             <React.Fragment>
               <h1>{this.state.film.title}</h1>

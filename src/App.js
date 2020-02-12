@@ -1,7 +1,7 @@
-import React from 'react';
-import { Route, Switch } from 'react-router-dom';
-import FilmsList from './components/FilmsList';
-import FilmDetails from './components/FilmDetails';
+import React from "react";
+import { Route, Switch } from "react-router-dom";
+import FilmsList from "./components/FilmsList";
+import FilmDetails from "./components/FilmDetails";
 
 function App() {
   return (

@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './Film.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Film.css";
 
 function Film(props) {
   return (
