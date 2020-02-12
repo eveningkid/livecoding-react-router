@@ -1,5 +1,5 @@
 {
-  "name": "livecoding-router-api",
+  "name": "livecoding-router",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
